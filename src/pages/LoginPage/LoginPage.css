@@ -1,0 +1,28 @@
+.loginpage-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.loginpage-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.loginpage-form-error {
+  margin: 0;
+  height: 20px;
+  text-align: center;
+  color: red
+}
+
+.loginpage-form > input {
+  margin: 5px;
+  height: 30px;
+}
